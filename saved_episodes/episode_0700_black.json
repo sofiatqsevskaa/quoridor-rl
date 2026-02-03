@@ -1,0 +1,787 @@
+{
+  "metadata": {
+    "episode_number": 700,
+    "winner": "black",
+    "total_steps": 38,
+    "timestamp": "2026-02-03T16:51:38.038260"
+  },
+  "states": [
+    {
+      "white_pos": [
+        8,
+        4
+      ],
+      "black_pos": [
+        0,
+        4
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    },
+    {
+      "white_pos": [
+        8,
+        5
+      ],
+      "black_pos": [
+        0,
+        4
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 1
+    },
+    {
+      "white_pos": [
+        8,
+        5
+      ],
+      "black_pos": [
+        0,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    },
+    {
+      "white_pos": [
+        8,
+        4
+      ],
+      "black_pos": [
+        0,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 1
+    },
+    {
+      "white_pos": [
+        8,
+        4
+      ],
+      "black_pos": [
+        1,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    },
+    {
+      "white_pos": [
+        7,
+        4
+      ],
+      "black_pos": [
+        1,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 1
+    },
+    {
+      "white_pos": [
+        7,
+        4
+      ],
+      "black_pos": [
+        0,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    },
+    {
+      "white_pos": [
+        7,
+        5
+      ],
+      "black_pos": [
+        0,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 1
+    },
+    {
+      "white_pos": [
+        7,
+        5
+      ],
+      "black_pos": [
+        0,
+        6
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    },
+    {
+      "white_pos": [
+        8,
+        5
+      ],
+      "black_pos": [
+        0,
+        6
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 1
+    },
+    {
+      "white_pos": [
+        8,
+        5
+      ],
+      "black_pos": [
+        0,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    },
+    {
+      "white_pos": [
+        7,
+        5
+      ],
+      "black_pos": [
+        0,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 1
+    },
+    {
+      "white_pos": [
+        7,
+        5
+      ],
+      "black_pos": [
+        1,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    },
+    {
+      "white_pos": [
+        7,
+        4
+      ],
+      "black_pos": [
+        1,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 1
+    },
+    {
+      "white_pos": [
+        7,
+        4
+      ],
+      "black_pos": [
+        2,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    },
+    {
+      "white_pos": [
+        7,
+        5
+      ],
+      "black_pos": [
+        2,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 1
+    },
+    {
+      "white_pos": [
+        7,
+        5
+      ],
+      "black_pos": [
+        3,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    },
+    {
+      "white_pos": [
+        7,
+        6
+      ],
+      "black_pos": [
+        3,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 1
+    },
+    {
+      "white_pos": [
+        7,
+        6
+      ],
+      "black_pos": [
+        3,
+        6
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    },
+    {
+      "white_pos": [
+        7,
+        5
+      ],
+      "black_pos": [
+        3,
+        6
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 1
+    },
+    {
+      "white_pos": [
+        7,
+        5
+      ],
+      "black_pos": [
+        3,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    },
+    {
+      "white_pos": [
+        7,
+        4
+      ],
+      "black_pos": [
+        3,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 1
+    },
+    {
+      "white_pos": [
+        7,
+        4
+      ],
+      "black_pos": [
+        2,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    },
+    {
+      "white_pos": [
+        6,
+        4
+      ],
+      "black_pos": [
+        2,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 1
+    },
+    {
+      "white_pos": [
+        6,
+        4
+      ],
+      "black_pos": [
+        3,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    },
+    {
+      "white_pos": [
+        7,
+        4
+      ],
+      "black_pos": [
+        3,
+        5
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 1
+    },
+    {
+      "white_pos": [
+        7,
+        4
+      ],
+      "black_pos": [
+        3,
+        6
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    },
+    {
+      "white_pos": [
+        7,
+        5
+      ],
+      "black_pos": [
+        3,
+        6
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 1
+    },
+    {
+      "white_pos": [
+        7,
+        5
+      ],
+      "black_pos": [
+        4,
+        6
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    },
+    {
+      "white_pos": [
+        8,
+        5
+      ],
+      "black_pos": [
+        4,
+        6
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 1
+    },
+    {
+      "white_pos": [
+        8,
+        5
+      ],
+      "black_pos": [
+        4,
+        7
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    },
+    {
+      "white_pos": [
+        7,
+        5
+      ],
+      "black_pos": [
+        4,
+        7
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 1
+    },
+    {
+      "white_pos": [
+        7,
+        5
+      ],
+      "black_pos": [
+        5,
+        7
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    },
+    {
+      "white_pos": [
+        7,
+        4
+      ],
+      "black_pos": [
+        5,
+        7
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 1
+    },
+    {
+      "white_pos": [
+        7,
+        4
+      ],
+      "black_pos": [
+        6,
+        7
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    },
+    {
+      "white_pos": [
+        7,
+        5
+      ],
+      "black_pos": [
+        6,
+        7
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 1
+    },
+    {
+      "white_pos": [
+        7,
+        5
+      ],
+      "black_pos": [
+        7,
+        7
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    },
+    {
+      "white_pos": [
+        7,
+        6
+      ],
+      "black_pos": [
+        7,
+        7
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 1
+    },
+    {
+      "white_pos": [
+        7,
+        6
+      ],
+      "black_pos": [
+        8,
+        7
+      ],
+      "h_walls": [],
+      "v_walls": [],
+      "white_walls": 0,
+      "black_walls": 0,
+      "turn": 0
+    }
+  ],
+  "actions": [
+    [
+      "move",
+      8,
+      5
+    ],
+    [
+      "move",
+      0,
+      5
+    ],
+    [
+      "move",
+      8,
+      4
+    ],
+    [
+      "move",
+      1,
+      5
+    ],
+    [
+      "move",
+      7,
+      4
+    ],
+    [
+      "move",
+      0,
+      5
+    ],
+    [
+      "move",
+      7,
+      5
+    ],
+    [
+      "move",
+      0,
+      6
+    ],
+    [
+      "move",
+      8,
+      5
+    ],
+    [
+      "move",
+      0,
+      5
+    ],
+    [
+      "move",
+      7,
+      5
+    ],
+    [
+      "move",
+      1,
+      5
+    ],
+    [
+      "move",
+      7,
+      4
+    ],
+    [
+      "move",
+      2,
+      5
+    ],
+    [
+      "move",
+      7,
+      5
+    ],
+    [
+      "move",
+      3,
+      5
+    ],
+    [
+      "move",
+      7,
+      6
+    ],
+    [
+      "move",
+      3,
+      6
+    ],
+    [
+      "move",
+      7,
+      5
+    ],
+    [
+      "move",
+      3,
+      5
+    ],
+    [
+      "move",
+      7,
+      4
+    ],
+    [
+      "move",
+      2,
+      5
+    ],
+    [
+      "move",
+      6,
+      4
+    ],
+    [
+      "move",
+      3,
+      5
+    ],
+    [
+      "move",
+      7,
+      4
+    ],
+    [
+      "move",
+      3,
+      6
+    ],
+    [
+      "move",
+      7,
+      5
+    ],
+    [
+      "move",
+      4,
+      6
+    ],
+    [
+      "move",
+      8,
+      5
+    ],
+    [
+      "move",
+      4,
+      7
+    ],
+    [
+      "move",
+      7,
+      5
+    ],
+    [
+      "move",
+      5,
+      7
+    ],
+    [
+      "move",
+      7,
+      4
+    ],
+    [
+      "move",
+      6,
+      7
+    ],
+    [
+      "move",
+      7,
+      5
+    ],
+    [
+      "move",
+      7,
+      7
+    ],
+    [
+      "move",
+      7,
+      6
+    ],
+    [
+      "move",
+      8,
+      7
+    ]
+  ]
+}
