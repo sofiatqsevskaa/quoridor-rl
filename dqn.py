@@ -1,4 +1,5 @@
 import time
+import os
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -237,8 +238,10 @@ def plot_training(rewards, lengths):
     plt.xlabel("Episode")
     plt.ylabel("Total Reward")
     plt.title("Training Reward")
-    plt.savefig("plots/training_reward"+plt.savefig("plots/training_reward_" +
-                str(int(time.time())) + ".png")+".png")
+
+    os.makedirs("plots", exist_ok=True)
+    plt.savefig(f"plots/training_reward_{int(time.time())}.png")
+
     plt.close()
 
     plt.figure()
@@ -246,9 +249,9 @@ def plot_training(rewards, lengths):
     plt.xlabel("Episode")
     plt.ylabel("Episode Length")
     plt.title("Episode Length")
-    plt.savefig("plots/episode_length.png")
+    plt.savefig(f"plots/episode_length_{int(time.time())}.png")
     plt.close()
 
 
 if __name__ == "__main__":
-    train_dqn()
+    train_dqn(100000)
