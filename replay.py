@@ -8,51 +8,42 @@ import time
 
 
 def replay_episode(filepath, auto_play=True, delay_ms=200):
-    env = QuoridorEnv(size=9, num_walls=10)
-    visualizer = QuoridorVisualizer(board_size=9, cell_size=60)
+    with open(filepath, 'r') as f:
+        episode_data = json.load(f)
 
-    try:
-        with open(filepath, 'r') as f:
-            episode_data = json.load(f)
+    size = episode_data["size"]
+    num_walls = episode_data["num_walls"]
+    states = episode_data["states"]
 
-        if 'states' not in episode_data:
-            visualizer.close()
-            return False
+    env = QuoridorEnv(size=size, num_walls=num_walls)
+    visualizer = QuoridorVisualizer(board_size=size, cell_size=60)
 
-        states = episode_data['states']
-        step = 0
+    step = 0
 
-        while step < len(states):
-            state = states[step]
+    while step < len(states):
+        state = states[step]
 
-            env.white_pos = tuple(state['white_pos'])
-            env.black_pos = tuple(state['black_pos'])
-            env.h_walls = set(tuple(w) for w in state['h_walls'])
-            env.v_walls = set(tuple(w) for w in state['v_walls'])
-            env.white_walls = state['white_walls']
-            env.black_walls = state['black_walls']
-            env.turn = state['turn']
+        env.white_pos = tuple(state['white_pos'])
+        env.black_pos = tuple(state['black_pos'])
+        env.h_walls = set(tuple(w) for w in state['h_walls'])
+        env.v_walls = set(tuple(w) for w in state['v_walls'])
+        env.white_walls = state['white_walls']
+        env.black_walls = state['black_walls']
+        env.turn = state['turn']
 
-            visualizer.draw_board(
-                env, replay=True, step=step, total_steps=len(states)-1
-            )
+        visualizer.draw_board(env, step=step, total_steps=len(states) - 1)
 
-            for event in pygame.event.get():
-                if event.type == pygame.QUIT:
-                    visualizer.close()
-                    return False
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                visualizer.close()
+                return False
 
-            pygame.time.delay(delay_ms)
-            step += 1
+        pygame.time.delay(delay_ms)
+        step += 1
 
-        pygame.time.delay(500)
-        visualizer.close()
-        return True
-
-    except Exception:
-        if 'visualizer' in locals():
-            visualizer.close()
-        return False
+    pygame.time.delay(500)
+    visualizer.close()
+    return True
 
 
 def replay_all_episodes(folder_path='saved_episodes', auto_play=True, delay_ms=200, reverse=True):
