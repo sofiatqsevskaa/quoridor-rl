@@ -46,7 +46,7 @@ def replay_episode(filepath, auto_play=True, delay_ms=200):
     return True
 
 
-def replay_all_episodes(folder_path='saved_episodes', auto_play=True, delay_ms=200, reverse=True):
+def replay_all_episodes(folder_path='saved_episodes_actor_critic', auto_play=True, delay_ms=200, reverse=True):
     if not os.path.exists(folder_path):
         print(f"Error: Folder '{folder_path}' not found!")
         return

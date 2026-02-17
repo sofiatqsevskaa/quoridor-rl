@@ -33,7 +33,7 @@ class Critic(nn.Module):
         return self.fc3(x)
 
 
-def train_actor_critic(episodes=5000, size=5, gamma=0.99, lr_actor=1e-4, lr_critic=1e-3):
+def train_actor_critic(episodes=5000, size=9, gamma=0.99, lr_actor=1e-4, lr_critic=1e-3):
     env = QuoridorEnv(size=size, num_walls=3)
     state_dim = size * size * 2 + 2
     action_dim = 4 + size * size
