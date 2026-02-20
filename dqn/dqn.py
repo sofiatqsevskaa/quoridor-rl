@@ -5,7 +5,7 @@ import torch.nn as nn
 import torch.optim as optim
 import random
 from collections import deque
-from quoridor_env import QuoridorEnv
+from environment.quoridor_env import QuoridorEnv
 from helper_functions import *
 import os
 

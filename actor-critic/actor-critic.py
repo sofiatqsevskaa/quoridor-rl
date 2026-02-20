@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 import random
-from quoridor_env import QuoridorEnv
+from environment.quoridor_env import QuoridorEnv
 import helper_functions as helpers
 
 
